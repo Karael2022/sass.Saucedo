@@ -1,0 +1,47 @@
+@import "colores";
+@import "estructura";
+@import "tipografia";
+
+body{
+background-color: $color_primario;
+}
+div {
+	color: $color_segundario;
+	background-color: white;
+}
+header{
+	background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(244,7,32,1) 35%);;
+}
+
+h1{
+font-size: 96px;
+color: black;
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(206, 5, 25) 35%);;
+}
+
+h2 { color: black;
+}
+
+h3{
+	font-size: 25px;
+	padding-top: 0%;
+	padding-bottom: 0%;
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(244,7,32,1) 35%);; 
+}
+p{
+	display: inline;
+}
+ul {
+	background-color: black;	
+}
+a {
+	color: white;
+	& :hover{
+		font-weight: 25px;
+		color:red;
+	}
+}
+.redes1 {
+	background-color: #f1f1f1;
+	
+}
