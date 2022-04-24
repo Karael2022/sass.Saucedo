@@ -6,7 +6,8 @@ body {
     background-color: white
 }
 header {
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(244,7,32,1) 35%);;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(244,7,32,1) 35%);
+    height: 250px;
 }
 
 nav {
@@ -16,9 +17,20 @@ nav {
 div {
     background-color: white;
     color: black;
+    
 }
 
 footer{
     background-color: f1f1f1;
 }
 
+.code {
+    font-size: 80%;
+    height: 200px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(244,7,32,1) 35%);
+}
+@media (min-width: 430px) {
+    h1{
+        color: white;
+    }
+    }
