@@ -1,0 +1,22 @@
+@mixin barra ($fondo){
+    background-color: $fondo;
+    color: rgb(128, 12, 12);
+    height: 15px;
+    border-radius: 15px;
+
+}
+
+.barra-1 {
+    @include barra (darkred);
+}
+
+.barra-2 {
+    @include barra (purple);
+}
+.barra-3 {
+    @include barra (skyblue);
+}
+.barra-4 {
+    @include barra (rgb(214, 100, 7));
+
+}

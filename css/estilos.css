@@ -5,9 +5,10 @@
 body {
   background-color: white; }
 
-header {
-  background: linear-gradient(90deg, #020024 0%, #f40720 35%); }
-
+/*header {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(244,7,32,1) 35%);
+    
+}*/
 nav {
   background-color: black; }
 
@@ -23,10 +24,6 @@ footer {
   height: 200px;
   background: linear-gradient(90deg, #020024 0%, #f40720 35%); }
 
-@media (min-width: 430px) {
-  h1 {
-    color: white; } }
-
 header {
   font-family: 'Roboto', sans-serif; }
 
@@ -35,6 +32,30 @@ footer {
 
 h1 {
   font-size: larger; }
+
+.barra-1 {
+  background-color: darkred;
+  color: #800c0c;
+  height: 15px;
+  border-radius: 15px; }
+
+.barra-2 {
+  background-color: purple;
+  color: #800c0c;
+  height: 15px;
+  border-radius: 15px; }
+
+.barra-3 {
+  background-color: skyblue;
+  color: #800c0c;
+  height: 15px;
+  border-radius: 15px; }
+
+.barra-4 {
+  background-color: #d66407;
+  color: #800c0c;
+  height: 15px;
+  border-radius: 15px; }
 
 body {
   background-color: white; }
@@ -76,8 +97,7 @@ a {
   background-repeat: none;
   background-size: cover;
   background-position: center;
-  border-radius: 10px;
-  border-color: #f1f1f1; }
+  border-radius: 10px; }
 
 /*.pedidosO {
 	background-image: url(../imagenes/ver.jpg);
