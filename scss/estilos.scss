@@ -2,6 +2,7 @@
 @import "estructura";
 @import "tipografia";
 
+
 body{
 background-color: $color_primario;
 }
@@ -9,14 +10,11 @@ div {
 	color: $color_segundario;
 	background-color: white;
 }
-header{
-	background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(244,7,32,1) 35%);;
-}
+
 
 h1{
-font-size: 96px;
-color: black;
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(206, 5, 25) 35%);;
+font-size: 86px;
+color: rgb(17, 17, 17);
 }
 
 h2 { color: black;
@@ -26,7 +24,6 @@ h3{
 	font-size: 25px;
 	padding-top: 0%;
 	padding-bottom: 0%;
-	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(244,7,32,1) 35%);; 
 }
 p{
 	display: inline;
@@ -38,10 +35,127 @@ a {
 	color: white;
 	& :hover{
 		font-weight: 25px;
-		color:red;
+		color:white;
 	}
 }
 .redes1 {
 	background-color: #f1f1f1;
 	
 }
+
+
+/* desde aqui hay union*/
+.banner {
+	background-image: url(../imagenes/Nigiri.jpg) ;
+	background-repeat: none;
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+	border-color: #f1f1f1;
+	
+}
+
+/*.pedidosO {
+	background-image: url(../imagenes/ver.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}*/
+
+.sakura {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.menu {
+/*    display: flex;
+    justify-content: center;*/
+    font-style: italic;
+    border-radius: 15px;
+    font-size: 18px;
+
+}
+
+.contenedor.menu {
+    height: max-content;
+    padding-top: 12px;
+}
+
+.menu2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: repeat(2,auto);
+    justify-items: center;
+    padding-top: 30px;
+    grid-row-gap: 5px;
+    
+}
+.menu2 :hover {
+    width: 250px;
+    height: 150px;
+} 
+
+.menu3 {
+    font-family: 'Libre Baskerville', serif;
+}
+.promo1 {
+    font-family: 'Libre Baskerville', serif;
+}
+.contacto2 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+.redes1 {
+    
+    margin: 0px;
+    display: inline-flex;
+    justify-content: center ;
+    width: 250px; 
+    gap: 1rem;
+    text-decoration: none;
+    
+        
+}
+
+.pedidos {font-size: 50px; margin-top: 10px; padding-top: 10px;}
+
+
+
+
+.imagen3 {
+    position: relative;
+    top: 40px;
+
+}
+
+.contacto1 {
+    display: grid;
+    grid-template-areas: "contacto1";
+    grid-template-columns: 50% 50% ;
+    grid-template-rows: auto;
+    padding-top: 5%;
+    padding-left: 15px;
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgb(40, 40, 124) 31%, rgba(2,181,235,1) 90%);
+	background-repeat: no-repeat;    
+}
+
+.datos {
+    font-size:30px;
+    padding-right: 25px;
+    
+}
+    
+
+.footer1 {
+    font-style:italic; font-size: small;
+    height: 250px; 
+    
+    padding-left: 2rem;
+    background: linear-gradient(90deg, rgb(206, 206, 209) 0%, rgb(124, 124, 131) 8%, rgba(239,243,245,1) 90%);
+    border-radius: 3rem;
+    border-color: white;
+    
+    
+    
+}
+
