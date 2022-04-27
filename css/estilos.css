@@ -24,6 +24,19 @@ footer {
   height: 200px;
   background: linear-gradient(90deg, #020024 0%, #f40720 35%); }
 
+/* maps*/
+.blanco white {
+  color: negro; }
+
+.color_fondo {
+  background-color: red; }
+
+.negro black {
+  color: negro; }
+
+.color_fondo {
+  background-color: red; }
+
 header {
   font-family: 'Roboto', sans-serif; }
 
@@ -42,19 +55,19 @@ h1 {
 .barra-2 {
   background-color: purple;
   color: #800c0c;
-  height: 15px;
+  height: 12px;
   border-radius: 15px; }
 
 .barra-3 {
   background-color: skyblue;
   color: #800c0c;
-  height: 15px;
+  height: 10px;
   border-radius: 15px; }
 
 .barra-4 {
   background-color: #d66407;
   color: #800c0c;
-  height: 15px;
+  height: 16px;
   border-radius: 15px; }
 
 body {
@@ -148,15 +161,12 @@ a {
   gap: 1rem;
   text-decoration: none; }
 
-.pedidos {
-  font-size: 50px;
-  margin-top: 10px;
-  padding-top: 10px; }
+/*.pedidos {font-size: 50px; margin-top: 10px; padding-top: 10px;}*/
+/*.imagen3 {
+    position: relative;
+    top: 40px;
 
-.imagen3 {
-  position: relative;
-  top: 40px; }
-
+}*/
 .contacto1 {
   display: grid;
   grid-template-areas: "contacto1";

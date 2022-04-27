@@ -31,3 +31,20 @@ footer{
 }
 
 
+/* maps*/
+$color_texto: (blanco:white,negro:black);
+$color_fondo: (fondo:red,naranja:orange);
+
+@each $var in $color_texto {
+    .#{$var} {
+        color:negro;
+}
+
+@each $var in color_fondo {
+    .#{$var} {
+        background-color:red;
+    }
+    
+}
+    
+}
