@@ -99,7 +99,7 @@ h2 {
 h3 {
   font-size: 25px;
   padding-top: 0%;
-  padding-bottom: 0%; }
+  padding-bottom: 5%; }
 
 p {
   display: inline; }
@@ -141,10 +141,6 @@ ul {
   font-style: italic;
   border-radius: 10px;
   font-size: 18px; }
-
-.contenedor.menu {
-  height: max-content;
-  padding-top: 12px; }
 
 .menu2 {
   display: grid;
