@@ -25,14 +25,23 @@
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="container-fluid">
+    <!--<header class="container-fluid">
         <div class="row ">
             <h1 class=" fst-italic text-center justify-content-center h1 display-1">Contacto</h1> 
         </div>
+    </header>-->
+    <header class="container-fluid banner1">
+        <div class="row  banner1">
+            <div class="banner1">
+                <h1 class=" col-md-12 fst-italic text-center justify-content-center h1 display-1 ">Contacto</h1> 
+                <!--<h4 class="display-12 text-center text-whiteh3">DELICIAS HECHAS PARA UD</h4>-->
+            </div>
+        </div>
     </header>
+    <!--
         <div class="barra-4 text-center">
             <h6></h6>
-        </div>
+        </div>-->
     <nav>
     <ul class="nav justify-content-center menu" >
         <li class="nav-item text-white">
@@ -53,33 +62,63 @@
         </ul>
     </nav>
     
-    <main class="row">
-        <div class="col-md-6 contacto1">
-            <p class="animate__animated animate__backInLeft text-white text-center h4" >Datos de contacto <br> <br>
-             Telefono: 11 67346621 <br>
-             WhatsApp +54 1122334455 <br>
-             Email: SaKuraSushi@gmail <br>
-             Calle buenavista 12457 CP 5670</p>
+    <!--<main class="row contacto1">
+        <div class="col-md-5 ">
+            <p class="animate__animated animate__backInLeft text-black text-left h4 p-4" >Datos de contacto <br> <br>
+            Telefono: 11 67346621 <br>
+            WhatsApp +54 1122334455 <br>
+            Email: SaKuraSushi@gmail.com <br>
+            Calle Buenavista 12457 CP 5670</p>
             
             </div>
             
-            <div class="col-md-6 contacto1">
-                    <form action="envio.php" method="post" class="animate__animated animate__backInRight" >
-                    <h3 class="text-white">Contanos en que podemos ayudarte</h3>
+            <div class="col-md-7 ">
+                    <form action="envio.php" method="post" class="animate__animated animate__backInRight ml-25" >
+                    <h3 class="text-black">Contanos en que podemos ayudarte</h3>
                     <label for=""></label><input type="text" value="Nombre completo">
                     <label for=""></label><input type="numero" value="Telefono">
                     <label for=""></label><input type="email" value="email"> <br><br>
-                    <label for="exampleFormControlTextarea1" class="form-label text-white">En que podemos ayudarlo</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+                    <label for="exampleFormControlTextarea1" class="form-label text-black">En que podemos ayudarlo</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
                 
-                    <!-- <label for=""></label><textarea name="" id="" cols="73" rows="10">En que podemos ayudarlo.....</textarea>-->
+                    <!-- <label for=""></label><textarea name="" id="" cols="73" rows="10">En que podemos ayudarlo.....</textarea>
                     <input type="submit"></p>
                 </div>                
 
                     </form>
         
-    </main>
-
+    </main>-->
+    <div class="container">
+    <div class="row g-0 p-3 justify-content-center container-fluid ">
+    <div class="card mb-3" style="max-width: 1044px;" >
+        <div class="row g-0">
+        <div class="col-md-4 border border border-dark">
+            <img src="imagenes/Nigiri.jpg" class="img-fluid rounded-center" alt="Nigiri">
+        </div>
+        <div class="col-md-8 p-3 border border border-primary">
+            <div class="card-body">
+            <h5 class="card-title">Datos de Contacto</h5>
+            <p class="card-text">Telefono: 11 67346621 <br>
+                WhatsApp +54 1122334455 <br>
+                Email: SaKuraSushi@gmail.com <br>
+                Calle Buenavista 12457 CP 5670 <br>
+                </p></p>
+            <p class="card-text"><small class="text-muted">El mejor Sushi de Buenos Aires</small></p>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="mb-1 p-3">
+        <label for="exampleFormControlInput1" class="form-label ">Email</label>
+        <input type="email" class="form-control border border-dark" id="exampleFormControlInput1 " placeholder="su-email@ejemplo.com">
+    </div>
+    <div class="mb-0 p-3">
+        <label for="exampleFormControlTextarea1" class="form-label ">Contanos en que podemos ayudarte...</label>
+        <textarea class="form-control border border-dark" id="exampleFormControlTextarea1" rows="3"></textarea><input type="submit">
+    </div>                
+    </div>
+        </form>
+    </div>
     <footer class="text-center text-white" style="background-color: #f1f1f1;">
         <p class="col-md-6">
             <h4 class="text-black p-3" >Saucedo contenidos 3.0 </h4>

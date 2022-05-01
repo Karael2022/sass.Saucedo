@@ -47,6 +47,9 @@ footer {
   margin: 0px auto 0 auto; }
 
 header {
+  background-size: contain; }
+
+header {
   font-family: 'Roboto', sans-serif; }
 
 footer {
@@ -84,11 +87,8 @@ body {
 
 div {
   color: black;
-  background: #F8F9F9; }
+  background: white; }
 
-/*article {
-    background: linear-gradient(90deg, rgba(237,237,245,1) 1%, rgba(134,139,139,1) 53%, rgba(6,21,24,1) 100%);
-}*/
 h1 {
   font-size: 86px;
   color: #111111; }
@@ -124,12 +124,13 @@ a {
   background-position: center;
   border-radius: 10px; }
 
-/*.pedidosO {
-	background-image: url(../imagenes/ver.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-}*/
+.banner1 {
+  background-image: url(../imagenes/Nigiri.jpg);
+  background-repeat: none;
+  background-size: cover;
+  /*background-position: center;*/
+  border-radius: 10px; }
+
 .sakura {
   font-family: 'Libre Baskerville', serif; }
 
@@ -185,9 +186,10 @@ a {
   grid-template-columns: 50% 50%;
   grid-template-rows: auto;
   padding-top: 5%;
-  padding-left: 15px;
+  padding-left: 25px;
   background: radial-gradient(circle, #020024 0%, #28287c 31%, #02b5eb 90%);
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .datos {
   font-size: 30px;
