@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    background-color: white
+    background-color: white;
 }
 /*header {
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(244,7,32,1) 35%);
@@ -22,6 +22,8 @@ div {
 
 footer{
     background-color: f1f1f1;
+    border-top: 1px;
+    border-color: black;
 }
 
 .code {
@@ -42,9 +44,16 @@ $color_fondo: (fondo:red,naranja:orange);
 
 @each $var in color_fondo {
     .#{$var} {
-        background-color:red;
+        color:red;
     }
     
 }
     
+}
+.linea {
+    border-top: 1px solid black;
+    height: 0,2px;
+    max-width: 800px;
+    padding: 0;
+    margin: 0px auto 0 auto;
 }
