@@ -126,10 +126,10 @@ ul {
   border-radius: 10px; }
 
 .banner1 {
-  background-image: url(../imagenes/Nigiri.jpg);
+  background-image: url(../imagenes/2origen-sushi.jpg);
   background-repeat: none;
   background-size: cover;
-  /*background-position: center;*/
+  background-position: center;
   border-radius: 10px; }
 
 .sakura {
