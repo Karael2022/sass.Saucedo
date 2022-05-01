@@ -30,13 +30,13 @@ p{
 ul {
 	background-color: black;	
 }
-a {
+/*a {
 	color: white;
 	& :hover{
 		font-weight: 25px;
-		color:white;
+		color:red;
 	}
-}
+}*/
 .redes1 {
 	background-color: #f1f1f1;
 	
@@ -59,8 +59,6 @@ a {
 	background-size: cover;
 	/*background-position: center;*/
 	border-radius: 10px;
-	
-	
 }
 
 
@@ -93,10 +91,7 @@ a {
     grid-row-gap: 5px;
     
 }
-.menu2 :hover {
-    width: 250px;
-    height: 150px;
-} 
+
 
 .menu3 {
     font-family: 'Libre Baskerville', serif;
@@ -121,7 +116,9 @@ a {
         
 }
 
-/*.pedidos {font-size: 50px; margin-top: 10px; padding-top: 10px;}*/
+.pedidos0 {font-size: 50px; margin-top: 10px; padding-top: 10px;
+opacity: 40%;
+}
 
 
 
@@ -132,7 +129,7 @@ a {
 
 }*/
 
-.contacto1 {
+/*.contacto1 {
     display: grid;
     grid-template-areas: "contacto1";
     grid-template-columns: 50% 50% ;
@@ -142,7 +139,7 @@ a {
     background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgb(40, 40, 124) 31%, rgba(2,181,235,1) 90%);
 	background-repeat: no-repeat;
     background-size: cover;    
-}
+}*/
 
 .datos {
     font-size:30px;
