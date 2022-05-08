@@ -89,6 +89,9 @@ div {
   color: black;
   background: white; }
 
+.navbarNav {
+  justify-content: space-between; }
+
 h1 {
   font-size: 86px;
   color: #111111; }
